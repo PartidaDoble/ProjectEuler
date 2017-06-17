@@ -11,18 +11,15 @@ por debajo de 1000.
 
 int main(void)
 {
-    int suma = sumaMultiplos(3, 1000) + sumaMultiplos(5, 1000) - sumaMultiplos(15, 1000);
+    int suma = sumaMultiplos(3, 999) + sumaMultiplos(5, 999) - sumaMultiplos(15, 999);
     printf("La suma de multiplos de 3 o 5 por debajo de 1000 es: %d", suma);
 
     return 0;
 }
 
-int sumaMultiplos(multiplo, tope) {
-    int n, suma = 0;
-    for (n = 1; n < tope; n++) {
-        if (n % multiplo == 0) {
-            suma = suma + n;
-        }
-    }
-    return suma;
+int sumaMultiplos(int multiplo, int tope)
+{
+    int n = tope / multiplo;
+    return multiplo * n * (n + 1) / 2;
 }
+
