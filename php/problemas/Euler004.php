@@ -1,4 +1,12 @@
 <?php
+/* Numeros palindromos;
+
+Un número palindromo se lee lo mismo en ambos sentidos. 
+El palíndromo más grande creado con el producto
+de dos números de 2 dígitos es 9009 = 91 × 99.
+Encuentra el palíndromo más grande creado con
+el producto de dos números de 3 dígitos.
+*/
 
 namespace App;
 
