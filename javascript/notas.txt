@@ -6,3 +6,6 @@ npm install --save-dev mocha chai
 
 3. Para ejecutar las pruebas cada ves que se guarde un fichero:
 mocha -Gw fichero.js fichero_test.js
+
+4. Documentación:
+http://chaijs.com/api/assert/
