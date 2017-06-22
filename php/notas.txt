@@ -6,3 +6,6 @@ composer require --dev phpunit/phpunit ^6.1
 
 Comando para ejecutar las pruebas:
 vendor/bin/phpunit tests/UnitTest.php
+
+Establecer alias:
+alias t=vendor/bin/phpunit
