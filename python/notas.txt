@@ -1,5 +1,0 @@
-Documentación:
-https://pymotw.com/3/unittest/
-
-Comando para ejecutar las pruebas:
-python -m unittest -v modulo_test.py
