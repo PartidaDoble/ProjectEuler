@@ -10,6 +10,7 @@
  */
 
 var palindromo = 0;
+
 for (var num1 = 999; num1 > 100; num1--) {
     for (var num2 = 999; num2 > 100; num2--) {
          if(esPalindromo(num1 * num2)) {
@@ -23,7 +24,7 @@ for (var num1 = 999; num1 > 100; num1--) {
 console.log('Solución: ' + palindromo);
 
 function esPalindromo(numero) {
-    numStr = "" + numero;
+    var numStr = "" + numero;
     if (numStr == reverseString(numStr)) return true;
     return false;
 }
