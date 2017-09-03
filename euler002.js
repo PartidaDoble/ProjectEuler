@@ -19,4 +19,4 @@ while (b <= 4000000) {
     b = c;
 }
 
-console.log(suma);
+console.log('Solución: ' + suma);

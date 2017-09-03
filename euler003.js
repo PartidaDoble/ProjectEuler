@@ -17,7 +17,7 @@ for (var p = 2; p <= numero; p++) {
     }
 }
 
-console.log(factorPrimo);
+console.log('Solución: ' + factorPrimo);
 
 function esPrimo(valor) {
     if (valor == 2 || valor == 3) return true;

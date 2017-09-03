@@ -8,7 +8,7 @@
 */
 
 var suma = sumaMultiplos(3, 999) + sumaMultiplos(5, 999) - sumaMultiplos(15, 999);
-console.log("La suma de multiplos de 3 o 5 por debajo de 1000 es: " + suma);
+console.log('Solución: ' + suma);
 
 function sumaMultiplos(multiplo, tope)
 {
