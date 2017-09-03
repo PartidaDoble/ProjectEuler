@@ -3,6 +3,7 @@
  *
  * Un triplete pitagórico es un conjunto de tres números naturales, a < b < c,
  * para los cuales, a^2 + b^2 = c^2
+ *
  * Existe exactamente un triplete pitagórico para el cual a + b + c = 1000.
  * Calcule a*b*c
  */
