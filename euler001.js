@@ -7,13 +7,12 @@
  * por debajo de 1000.
 */
 
-var suma = sumaMultiplos(3, 999) + sumaMultiplos(5, 999) - sumaMultiplos(15, 999);
-console.log('Solución: ' + suma);
+var suma = 0
 
-function sumaMultiplos(multiplo, tope)
-{
-    var n = Math.floor(tope / multiplo);
-    return multiplo * n * (n + 1) / 2;
+for (var num = 1; num < 1000; num++) {
+    if (num % 3 == 0 || num % 5 == 0) {
+        suma += num;
+    }
 }
 
-// 3 + 6 + 9 + ... + 999 = 3*(1 + 2 + 3 + ... + 333) = 3 * 333 * (333 + 1) / 2
+console.log('Solución: ' + suma);
